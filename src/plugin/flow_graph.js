@@ -134,37 +134,6 @@ export default class FlowGraph extends Component
 	
 	
 	
-	static get_elements()
-	{
-		// assert( T.isObject(this.state), context + ':render:bad state object')
-		// assert( T.isArray(this.state.items), context + ':render:bad state items array')
-		
-		const els = `[
-						// NODES
-						{
-							data: { id:'n1'}
-						},
-						{
-							data: { id:'n2'}
-						},
-						{
-							data: { id:'n3'}
-						},
-						
-						// EDGES
-						{
-							data: { id:'e1', source:'n1', target:'n2'}
-						},
-						{
-							data: { id:'e2', source:'n1', target:'n3'}
-						}
-					]`
-		
-		return els
-	}
-	
-	
-	
 	static get_styles()
 	{
 		return `[
