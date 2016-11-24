@@ -17,9 +17,9 @@ const context = plugin_name + '/cytoscape_rendering_plugin'
 
 export default class CytoscapePlugin extends RenderingPlugin
 {
-	constructor(arg_manager)
+	constructor(arg_runtime, arg_manager)
 	{
-		super(arg_manager, plugin_name, '1.0.0')
+		super(arg_runtime, arg_manager, plugin_name, '1.0.0')
 		
 		const base_dir = __dirname + '/../node_modules/cytoscape/dist'
 		this.add_public_asset('js', '/' + plugin_name + '/cytoscape.js', path.join(base_dir, 'cytoscape.js') )
