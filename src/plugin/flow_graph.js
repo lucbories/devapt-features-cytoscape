@@ -125,15 +125,6 @@ export default class FlowGraph extends Component
 	
 	
 	
-	get_initial_state()
-	{
-		return {
-			label:'no abel'
-		}
-	}
-	
-	
-	
 	static get_styles()
 	{
 		return `[
