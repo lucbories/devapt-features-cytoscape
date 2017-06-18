@@ -1,12 +1,13 @@
 
-import T from 'typr'
+// NPM IMPORTS
 import assert from 'assert'
 import path from 'path'
 
-import Devapt from 'devapt'
+// DEVAPT CORE COMMON IMPORTS
+import T               from 'devapt-core-common/dist/js/utils/types'
+import RenderingPlugin from 'devapt-core-common/dist/js/plugins/rendering_plugin'
 
-const RenderingPlugin = Devapt.RenderingPlugin
-
+// PLUGIN IMPORTS
 import FlowGraph from './plugin/flow_graph'
 
 

@@ -1,12 +1,12 @@
 
-import T from 'typr'
+// NPM IMPORTS
 import assert from 'assert'
 
-import Devapt from 'devapt'
+// DEVAPT CORE COMMON IMPORTS
+import T               from 'devapt-core-common/dist/js/utils/types'
 
-// const RenderingPlugin = Devapt.DefaultRenderingPlugin
-// const DefaultButton = RenderingPlugin.get_class('Button')
-const Component = Devapt.Component
+// DEVAPT CORE BROWSER IMPORTS
+import Component from 'devapt-core-browser/dist/js/base/component'
 
 
 const plugin_name = 'Cytoscape' 
